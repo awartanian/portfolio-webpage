@@ -23,7 +23,7 @@ const ProjectData = [
   {
     title: "E-commerce shop",
     languages: "SASS | REACT JS | REDUX | API | NPM",
-    info: "Group project of 3 - a fashion and tech store with a variety of pages, where you can add/remove items from   the shopping cart",
+    info: "Group project of 3 - a fashion and tech store with a variety of pages, where you can add/remove items from the shopping cart",
     demo: "https://awartanian.github.io/ecommerce-shop/",
     code: "https://github.com/awartanian/ecommerce-shop",
     image: ecommerce,
@@ -32,8 +32,8 @@ const ProjectData = [
     title: "Portfolio App",
     languages: "SASS | REACT JS | NPM",
     info: "An application style portfolio page displaying my group projects completed during my 1 year programming course.",
-    demo: "https://www.linkedin.com/in/arty-wartanian/",
-    code: "https://www.linkedin.com/in/arty-wartanian/",
+    demo: "https://awartanian.github.io/portfolio-webpage/",
+    code: "https://github.com/awartanian/portfolio-webpage",
     image: portfolio,
   },
 ];
