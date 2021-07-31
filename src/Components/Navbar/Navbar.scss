@@ -1,0 +1,122 @@
+.navbar {
+  background: #3d3d3d;
+  width: 12rem;
+  margin-right: 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease-in-out;
+
+  @media only screen and (max-width: 800px) {
+    width: 4.3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+     width: 0;
+     margin-right: 0;
+     opacity: 0;
+  }
+
+  img {
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    margin: 2rem auto 15rem auto;
+
+    @media only screen and (max-width: 800px) {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+}
+
+#hide-navbar {
+  width: 0;
+  margin-right: 0;
+  opacity: 0;
+  @media only screen and (max-width: 600px) {
+    min-width: 3.6rem;
+    margin-right: 0.4rem;
+    opacity: 100;
+ }
+}
+
+.navLinks-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style-type: none;
+
+  li {
+    margin: 0.2rem 0 0 0.8rem;
+
+    @media only screen and (max-width: 800px) {
+      margin-left: 0.4rem;
+    }
+
+    .navLink {
+      font-size: 1rem;
+      color: #fbfbfb;
+      text-decoration: none;
+      display: flex;
+      border-radius: 20px 0 0 20px;
+      line-height: 2.7rem;
+
+      .navLink-icon {
+        opacity: 0.6;
+        padding: 0.3rem;
+        margin: 0.5rem 0.6rem;
+        border-radius: 50%;
+      }
+      .navLink-page {
+        @media only screen and (max-width: 800px) {
+          display: none;
+        }
+      }
+    }
+
+    .active-navLink {
+      position: relative;
+      color: #ff3f22;
+      background: #ededed;
+
+      &::before {
+        content: "";
+        position: absolute;
+        background-color: transparent;
+        bottom: -50px;
+        right: 0;
+        height: 50px;
+        width: 10px;
+        border-top-right-radius: 15px;
+        box-shadow: 0 -25px 0 0 #ededed;
+        @media only screen and (max-width: 800px) {
+          width: 8px;
+        }
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        background-color: transparent;
+        top: -50px;
+        right: 0;
+        height: 50px;
+        width: 10px;
+        border-bottom-right-radius: 25px;
+        box-shadow: 0 25px 0 0 #ededed;
+        @media only screen and (max-width: 800px) {
+          width: 8px;
+        }
+      }
+
+      .navLink-icon {
+        opacity: 1;
+        // border: 1px ridge rgb(190, 190, 190);
+        background: #ededed;
+        
+        transition: box-shadow 0.3s;
+      }
+    }
+  }
+}
+
+

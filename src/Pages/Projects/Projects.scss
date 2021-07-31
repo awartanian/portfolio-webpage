@@ -1,0 +1,32 @@
+.projects-page {
+  padding: 2rem;
+  text-align: center;
+  height: 100%;
+  @media screen and (max-width: 600px) {
+    padding: 2rem 0.5rem;
+    text-align: center;
+  }
+}
+
+.projects-title {
+  font-size: 3rem;
+  color: #333;
+}
+
+.projects-underline {
+  width: 4rem;
+  height: 0.1rem;
+  background: #ff3f22;
+  margin: 0.5rem auto 1.6rem auto;
+}
+
+.projects-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: auto;
+  max-height: 80%;
+  
+}
+
+

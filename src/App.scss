@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, Helvetica, sans-serif;
+  // outline: 1px solid red;
+}
+
+body {
+  background: #efefef;
+  padding: 1.5rem;
+  @media only screen and (max-width: 1025px) {
+    padding: 0.4rem;
+  }
+}
+
+.app-frame {
+  max-width: 1300px;
+  min-height: 900px;
+  height: 95vh;
+  margin: 0 auto;
+  display: flex;
+  
+
+  @media only screen and (max-width: 1025px) {
+    height: 98vh;
+  }
+
+}
+
+.pages {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-color: #f3f3f3;
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

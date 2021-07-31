@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState}  from "react";
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
+import "./App.scss";
+import background from "./background.png"; 
 
-function App() {
+import About from "./Pages/About/About";
+import Projects from "./Pages/Projects/Projects";
+import Contact from "./Pages/Contact/Contact";
+import Navbar from "./Components/Navbar/Navbar";
+import Footer from "./Components/Footer/Footer";
+import ContactResponse from "./Pages/Contact/ContactResponse";
+import HamburgerButton from "./Components/HamburgerButton/HamburgerButton";
+
+
+const App = () => {
+  const [navbar, setNavbar] = useState(true);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <div className="app-frame">
+  <Router>
+    <Navbar navbar={navbar}/>
+    <main className="pages" style={{ backgroundImage: `url(${background})` }}>
+       <HamburgerButton setNavbar={setNavbar} navbar={navbar}/>
+      <Switch>
+        <Route path="/" exact><About /></Route>
+        <Route path="/about" exact><About /></Route>
+        <Route path="/projects" exact><Projects /></Route>
+        <Route path="/contact" exact><Contact /></Route>
+        <Route path="/contact/received" exact><ContactResponse /></Route>
+        <Redirect to="/" />
+      </Switch>
+      <Footer/>
+    </main>
+  </Router>
+  </div>)
 }
 
 export default App;
