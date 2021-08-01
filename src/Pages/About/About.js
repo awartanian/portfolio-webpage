@@ -23,7 +23,8 @@ useEffect(() => {
         <h1 data-aos="fade-up-right" ><span>Hi, I'm </span> Arty Wartanian.</h1>
         <h3 data-aos="fade-up-right" className="about-title">Full-Stack Web Developer</h3>
         <p data-aos="fade-up-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, rerum
-          enim facere laudantium eaque consequuntur? Lorem ipsum dolor sit amet, consectetur adipisicing. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          enim facere laudantium eaque consequuntur? Lorem ipsum dolor sit amet, consectetur adipisicing. 
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <div data-aos="fade-up-right" className="about-buttons">
           <a className="download-cv-button" href={CV} target="_blank" rel="noreferrer">Download CV</a>
           <Link to={`/contact`}  >
