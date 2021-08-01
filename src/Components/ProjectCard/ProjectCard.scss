@@ -38,6 +38,7 @@
   opacity: 0;
   transition: .3s ease;
   background-color: #fbfbfb;
+  overflow-y: auto;
 }
 
 .project-card:hover .project-card-overlay {
@@ -56,16 +57,27 @@
   align-items: center;
   height: 100%;
   text-align: center;
+  @media only screen and (max-width: 400px) {
+    padding: 0.2rem;
+  }
 
   & > * {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.6rem;
+    @media only screen and (max-width: 400px) {
+      margin-bottom: 0.1rem;
+    }
+  }
+
+  h3 {
+    @media only screen and (max-width: 400px) {
+      font-size: 0.9rem;
+    }
   }
 
   h4 {
     font-weight: 300;
     font-size: 1rem;
-    font-size: 0.9rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 400px) {
       font-size: 0.8rem;
     }
   }
@@ -77,8 +89,9 @@
     font-weight: 300;
     margin-bottom: 1rem;
     max-width: 22rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 400px) {
       font-size: 0.8rem;
+      margin-bottom: 0.1rem;
     }
   }
 }
@@ -91,16 +104,15 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     transition: 0.2s ease-in-out;
     border-radius: 4px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 400px) {
       font-size: 0.8rem;
     }
   }
 
-
   .demo-link {
     color: white;
     margin-right: 0.7rem;
-    background: #ff3f22;
+    background: #fd4133e7;
     &:hover {
       background: #333333; 
     }
