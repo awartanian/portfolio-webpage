@@ -1,9 +1,10 @@
+$primary-color: #fd4133f3;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, Helvetica, sans-serif;
-  // outline: 1px solid red;
 }
 
 body {
@@ -20,12 +21,10 @@ body {
   height: 95vh;
   margin: 0 auto;
   display: flex;
-  
 
   @media only screen and (max-width: 1025px) {
     height: 98vh;
   }
-
 }
 
 .pages {

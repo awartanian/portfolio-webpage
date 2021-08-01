@@ -31,8 +31,8 @@ const ProjectData = [
   {
     title: "Portfolio App",
     languages: "SASS | REACT JS | NPM",
-    info: "An application style portfolio page displaying my group projects completed during my 1 year programming course.",
-    demo: "https://awartanian-portfolio.netlify.app/",
+    info: "An application style portfolio page displaying my group projects.",
+    demo: "https://awartanian.github.io/portfolio-webpage/",
     code: "https://github.com/awartanian/portfolio-webpage",
     image: portfolio,
   },

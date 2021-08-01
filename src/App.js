@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-dom";
 import "./App.scss";
 import background from "./background.png";
 
@@ -21,12 +21,11 @@ const App = () => {
         <main className="pages" style={{ backgroundImage: `url(${background})` }}>
           <HamburgerButton setNavbar={setNavbar} navbar={navbar} />
           <Switch>
-            <Route path="/" exact><About /></Route>
-            <Route path="/portfolio-webpage" exact><About /></Route>
-            <Route path="/about" exact><About /></Route>
-            <Route path="/projects" exact><Projects /></Route>
-            <Route path="/contact" exact><Contact /></Route>
-            {/* <Redirect to="/" /> */}
+            <Route path="/" exact component={About}/>
+            <Route path="/about" exact component={About}/>
+            <Route path="/projects" exact component={Projects}/>
+            <Route path="/contact" exact component={Contact}/>
+            <Redirect to="/" />
           </Switch>
           <Footer />
         </main>

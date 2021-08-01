@@ -12,7 +12,7 @@ const Navbar = ({ navbar }) => {
       </Link>
       <ul className="navLinks-container">
         <li>
-          <NavLink to="/about" className="navLink" activeClassName="active-navLink ">
+          <NavLink exact={true} to="/" className="navLink" activeClassName="active-navLink">
             <i className="far fa-user-circle navLink-icon"></i>
             <div className="navLink-page">About</div>
           </NavLink>
