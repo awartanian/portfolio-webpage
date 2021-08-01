@@ -26,7 +26,7 @@ const App = () => {
         <Route path="/about" exact><About /></Route>
         <Route path="/projects" exact><Projects /></Route>
         <Route path="/contact" exact><Contact /></Route>
-        <Route path="/contact/received" exact><ContactResponse /></Route>
+        {/* <Route path="/contact/received" exact><ContactResponse /></Route> */}
         <Redirect to="/" />
       </Switch>
       <Footer/>
