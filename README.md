@@ -1,1 +1,1 @@
-
+An application style portfolio page displaying my group projects. 
