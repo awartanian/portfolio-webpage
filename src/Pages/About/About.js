@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 import picture from "./profile-picture.jpg";
 import spinner from "./dotted-spinner.png";
-import CV from "./CV_Arty_Wartanian.pdf";
+import CV from "./Arty_Wartanian_CV.pdf";
 
 const About = () => {
 
@@ -23,8 +23,7 @@ const About = () => {
         </div>
         <h1 data-aos="fade-up-right" ><span>Hi, I'm </span> Arty Wartanian.</h1>
         <h3 data-aos="fade-up-right" className="about-title">Full-Stack Web Developer</h3>
-        <p data-aos="fade-up-right">Curiosity and interest in programming allowed me to leave behind my former career in aviation/travel, to passionately start this new journey.</p>
-        <p data-aos="fade-up-right">I'm currently attending a 1-year full stack programming course and loving every minute of it. Besides staring at code for hours, I also enjoy movies, fitness training and italian food!</p>
+        <p data-aos="fade-up-right">My newly found passion in coding motivated me to change my career in aviation. So I decided to join a 1-year full stack web dev course and I'm now loving every minute of it. Besides staring at code for hours, I also enjoy movies, fitness training and italian food.</p>
         <div data-aos="fade-up-right" className="about-buttons">
           <a className="download-cv-button" href={CV} target="_blank" rel="noreferrer">Download CV</a>
           <Link to={`/contact`}  >
