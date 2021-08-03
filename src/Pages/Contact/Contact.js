@@ -22,7 +22,7 @@ const Contact = () => {
           <input type="email" name="email" required/>
           <label for="message">Message:</label>
           <textarea name="message" rows="6" cols="50" required></textarea>
-          <input type="hidden" name="_next" value="http://localhost:3000/src/Pages/Contact/Contact.js"></input>
+          <input type="hidden" name="_next" value="https://awartanian.github.io/portfolio-webpage/"></input>
           <div style={{ "text-align": "center" }}>
             <input className="submit-button" type="submit" value="Submit" />
           </div>
