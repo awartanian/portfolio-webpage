@@ -12,9 +12,9 @@
   }
 
   @media only screen and (max-width: 600px) {
-     width: 0;
-     margin-right: 0;
-     opacity: 0;
+    width: 0;
+    margin-right: 0;
+    opacity: 0;
   }
 
   img {
@@ -38,7 +38,7 @@
     min-width: 3.6rem;
     margin-right: 0.4rem;
     opacity: 100;
- }
+  }
 }
 
 .navLinks-container {
@@ -88,8 +88,8 @@
         bottom: -50px;
         right: 0;
         height: 50px;
-        width: 10px;
-        border-top-right-radius: 15px;
+        width: 21px;
+        border-top-right-radius: 25px;
         box-shadow: 0 -25px 0 0 #ededed;
         @media only screen and (max-width: 800px) {
           width: 8px;
@@ -103,7 +103,7 @@
         top: -50px;
         right: 0;
         height: 50px;
-        width: 10px;
+        width: 21px;
         border-bottom-right-radius: 25px;
         box-shadow: 0 25px 0 0 #ededed;
         @media only screen and (max-width: 800px) {
@@ -113,13 +113,7 @@
 
       .navLink-icon {
         opacity: 1;
-        // border: 1px ridge rgb(190, 190, 190);
-        background: #ededed;
-        
-        transition: box-shadow 0.3s;
       }
     }
   }
 }
-
-
