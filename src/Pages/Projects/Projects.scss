@@ -13,6 +13,9 @@
 .projects-title {
   font-size: 3rem;
   color: #333;
+  @media screen and (max-width: 500px) {
+    font-size: 1.8rem;
+  }
 }
 
 .projects-underline {
@@ -28,7 +31,6 @@
   justify-content: center;
   overflow-y: auto;
   max-height: 80%;
-  
 }
 
 
