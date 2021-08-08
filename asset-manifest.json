@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-webpage/static/css/main.5af09f80.chunk.css",
-    "main.js": "/portfolio-webpage/static/js/main.5383a0c6.chunk.js",
-    "main.js.map": "/portfolio-webpage/static/js/main.5383a0c6.chunk.js.map",
+    "main.js": "/portfolio-webpage/static/js/main.adb58e4c.chunk.js",
+    "main.js.map": "/portfolio-webpage/static/js/main.adb58e4c.chunk.js.map",
     "runtime-main.js": "/portfolio-webpage/static/js/runtime-main.4dc58283.js",
     "runtime-main.js.map": "/portfolio-webpage/static/js/runtime-main.4dc58283.js.map",
     "static/css/2.ec02d681.chunk.css": "/portfolio-webpage/static/css/2.ec02d681.chunk.css",
@@ -20,13 +20,13 @@
     "static/media/ecommerce.5c51ab33.jpg": "/portfolio-webpage/static/media/ecommerce.5c51ab33.jpg",
     "static/media/pokemon-game.00d41426.jpg": "/portfolio-webpage/static/media/pokemon-game.00d41426.jpg",
     "static/media/portfolio-website.417177ba.jpg": "/portfolio-webpage/static/media/portfolio-website.417177ba.jpg",
-    "static/media/profile-picture.3da324a1.jpg": "/portfolio-webpage/static/media/profile-picture.3da324a1.jpg"
+    "static/media/profile-picture.423574d4.jpg": "/portfolio-webpage/static/media/profile-picture.423574d4.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4dc58283.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.73d4b73f.chunk.js",
     "static/css/main.5af09f80.chunk.css",
-    "static/js/main.5383a0c6.chunk.js"
+    "static/js/main.adb58e4c.chunk.js"
   ]
 }
