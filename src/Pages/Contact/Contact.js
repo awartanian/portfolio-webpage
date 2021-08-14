@@ -11,19 +11,19 @@ const Contact = () => {
 
   return (
     <div className="contact-page">
-      <h1  data-aos="fade-down" className="contact-title" >Contact me</h1>
+      <h2  data-aos="fade-down" className="contact-title" >Contact me</h2>
       <div className="contact-underline"></div>
       <div  className="form-container">
       
       <form data-aos="fade" className="form-box" action="https://formsubmit.co/awartanian@hotmail.com" method="POST">
-          <label for="name">Name:</label>
+          <label htmlFor="name">Name:</label>
           <input type="text" name="name" required/>
-          <label for="email">Email:</label>
+          <label htmlFor="email">Email:</label>
           <input type="email" name="email" required/>
-          <label for="message">Message:</label>
+          <label htmlFor="message">Message:</label>
           <textarea name="message" rows="6" cols="50" required></textarea>
           <input type="hidden" name="_next" value="https://awartanian.github.io/portfolio-webpage/"></input>
-          <div style={{ "text-align": "center" }}>
+          <div style={{ "textAlign": "center" }}>
             <input className="submit-button" type="submit" value="Submit" />
           </div>
         </form>

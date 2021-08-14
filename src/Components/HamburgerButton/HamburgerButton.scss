@@ -6,6 +6,8 @@
    right: 0;
    cursor: pointer;
    z-index: 5;
+   color: var(--font-color);
+   transition: 0.1s;
   //  @media only screen and (max-width: 1000px) {
   //   visibility: visible;
   // }

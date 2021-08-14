@@ -13,7 +13,7 @@ const Projects = () => {
 
   return (
     <div className="projects-page">
-        <h1 data-aos="fade-down" className="projects-title">Projects</h1>
+        <h2 data-aos="fade-down" className="projects-title">Projects</h2>
         <div className="projects-underline"></div>
         <div data-aos="fade" className="projects-row">
           <ProjectCard />

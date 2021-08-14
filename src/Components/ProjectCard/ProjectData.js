@@ -23,7 +23,7 @@ const ProjectData = [
   {
     title: "E-commerce shop",
     languages: "SASS | REACT JS | REDUX | API | NPM",
-    info: "Group project of 3 - a fashion and tech store with a variety of pages, where you can add/remove items from the shopping cart",
+    info: "Group project of 3 - a fashion and tech store with a variety of pages, where you can add/remove items from the shopping cart.",
     demo: "https://awartanian.github.io/ecommerce-shop/",
     code: "https://github.com/awartanian/ecommerce-shop",
     image: ecommerce,
