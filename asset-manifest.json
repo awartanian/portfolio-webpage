@@ -1,32 +1,38 @@
 {
   "files": {
-    "main.css": "/portfolio-webpage/static/css/main.5af09f80.chunk.css",
-    "main.js": "/portfolio-webpage/static/js/main.57f3a468.chunk.js",
-    "main.js.map": "/portfolio-webpage/static/js/main.57f3a468.chunk.js.map",
+    "main.css": "/portfolio-webpage/static/css/main.5c82de5a.chunk.css",
+    "main.js": "/portfolio-webpage/static/js/main.8844a640.chunk.js",
+    "main.js.map": "/portfolio-webpage/static/js/main.8844a640.chunk.js.map",
     "runtime-main.js": "/portfolio-webpage/static/js/runtime-main.4dc58283.js",
     "runtime-main.js.map": "/portfolio-webpage/static/js/runtime-main.4dc58283.js.map",
     "static/css/2.ec02d681.chunk.css": "/portfolio-webpage/static/css/2.ec02d681.chunk.css",
-    "static/js/2.73d4b73f.chunk.js": "/portfolio-webpage/static/js/2.73d4b73f.chunk.js",
-    "static/js/2.73d4b73f.chunk.js.map": "/portfolio-webpage/static/js/2.73d4b73f.chunk.js.map",
+    "static/js/2.78d25051.chunk.js": "/portfolio-webpage/static/js/2.78d25051.chunk.js",
+    "static/js/2.78d25051.chunk.js.map": "/portfolio-webpage/static/js/2.78d25051.chunk.js.map",
     "index.html": "/portfolio-webpage/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/portfolio-webpage/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.5af09f80.chunk.css.map": "/portfolio-webpage/static/css/main.5af09f80.chunk.css.map",
-    "static/js/2.73d4b73f.chunk.js.LICENSE.txt": "/portfolio-webpage/static/js/2.73d4b73f.chunk.js.LICENSE.txt",
+    "static/css/main.5c82de5a.chunk.css.map": "/portfolio-webpage/static/css/main.5c82de5a.chunk.css.map",
+    "static/js/2.78d25051.chunk.js.LICENSE.txt": "/portfolio-webpage/static/js/2.78d25051.chunk.js.LICENSE.txt",
     "static/media/Arty_Wartanian_CV.cfb2cdd7.pdf": "/portfolio-webpage/static/media/Arty_Wartanian_CV.cfb2cdd7.pdf",
     "static/media/alpaca-website.a8fae138.jpg": "/portfolio-webpage/static/media/alpaca-website.a8fae138.jpg",
-    "static/media/aw-icon.06b3065e.png": "/portfolio-webpage/static/media/aw-icon.06b3065e.png",
-    "static/media/background.8648373e.png": "/portfolio-webpage/static/media/background.8648373e.png",
+    "static/media/aw-icon-blue.5624d12b.png": "/portfolio-webpage/static/media/aw-icon-blue.5624d12b.png",
+    "static/media/aw-icon-orange.06b3065e.png": "/portfolio-webpage/static/media/aw-icon-orange.06b3065e.png",
+    "static/media/aw-icon-yellow.aa398ff4.png": "/portfolio-webpage/static/media/aw-icon-yellow.aa398ff4.png",
+    "static/media/blue-background.62af1ba8.png": "/portfolio-webpage/static/media/blue-background.62af1ba8.png",
+    "static/media/dark-background.9caf3873.png": "/portfolio-webpage/static/media/dark-background.9caf3873.png",
     "static/media/dotted-spinner.d0ec4f34.png": "/portfolio-webpage/static/media/dotted-spinner.d0ec4f34.png",
     "static/media/ecommerce.5c51ab33.jpg": "/portfolio-webpage/static/media/ecommerce.5c51ab33.jpg",
+    "static/media/orange-background.ebe9627c.png": "/portfolio-webpage/static/media/orange-background.ebe9627c.png",
     "static/media/pokemon-game.00d41426.jpg": "/portfolio-webpage/static/media/pokemon-game.00d41426.jpg",
     "static/media/portfolio-website.417177ba.jpg": "/portfolio-webpage/static/media/portfolio-website.417177ba.jpg",
-    "static/media/profile-picture.c38bdcd3.jpg": "/portfolio-webpage/static/media/profile-picture.c38bdcd3.jpg"
+    "static/media/profile-picture.473ec903.png": "/portfolio-webpage/static/media/profile-picture.473ec903.png",
+    "static/media/white-background.5270d491.png": "/portfolio-webpage/static/media/white-background.5270d491.png",
+    "static/media/yellow-background.2e59d9b9.png": "/portfolio-webpage/static/media/yellow-background.2e59d9b9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4dc58283.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.73d4b73f.chunk.js",
-    "static/css/main.5af09f80.chunk.css",
-    "static/js/main.57f3a468.chunk.js"
+    "static/js/2.78d25051.chunk.js",
+    "static/css/main.5c82de5a.chunk.css",
+    "static/js/main.8844a640.chunk.js"
   ]
 }
