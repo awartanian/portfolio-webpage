@@ -1,6 +1,5 @@
 @import "../../App.scss";
 
-
 .about-page {
   display: flex;
   justify-content: center;
@@ -15,10 +14,10 @@
 
   .about-container {
     max-width: 32rem;
-    
+
     & > * {
       margin-bottom: 0.8rem;
-      
+
       @media only screen and (max-width: 600px) {
         margin-bottom: 1rem;
       }
@@ -32,7 +31,6 @@
       margin-top: 0;
       position: relative;
       z-index: 1;
-      
 
       @media only screen and (max-width: 600px) {
         margin-bottom: 1rem;
@@ -42,7 +40,6 @@
         width: 100%;
         height: 100%;
         border-radius: 50%;
-        
       }
     }
 
@@ -70,7 +67,6 @@
       line-height: 1.65em;
       color: var(--font-color);
       font-weight: 300;
-
     }
 
     .download-cv-button {
@@ -83,6 +79,7 @@
       box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
       border-radius: 4px;
       transition: 0.2s;
+      z-index: 5;
 
       &:hover {
         background: #333333;
@@ -98,6 +95,7 @@
       border-radius: 4px;
       transition: 0.2s;
       background: rgba(253, 253, 253, 0.945);
+      z-index: 5;
 
       &:hover {
         background: #838383;

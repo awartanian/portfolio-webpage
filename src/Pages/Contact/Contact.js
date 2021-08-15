@@ -16,11 +16,11 @@ const Contact = () => {
       <div  className="form-container">
       
       <form data-aos="fade" className="form-box" action="https://formsubmit.co/awartanian@hotmail.com" method="POST">
-          <label htmlFor="name">Name:</label>
+          <label for="name">Name:</label>
           <input type="text" name="name" required/>
-          <label htmlFor="email">Email:</label>
+          <label for="email">Email:</label>
           <input type="email" name="email" required/>
-          <label htmlFor="message">Message:</label>
+          <label for="message">Message:</label>
           <textarea name="message" rows="6" cols="50" required></textarea>
           <input type="hidden" name="_next" value="https://awartanian.github.io/portfolio-webpage/"></input>
           <div style={{ "textAlign": "center" }}>

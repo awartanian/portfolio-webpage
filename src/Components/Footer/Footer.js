@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <a href="https://www.linkedin.com/in/arty-wartanian/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
       <a href="https://github.com/awartanian" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a>
-      <a href="https://www.instagram.com/artys_drawing/" target="_blank" rel="noreferrer"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.instagram.com/artys_drawing/" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
     </footer>
   );
 };
