@@ -26,7 +26,7 @@ const About = () => {
         <p data-aos="fade-up-right">My newly found passion in coding motivated me to change my career in aviation. So I decided to join a 1-year full stack web dev course and I'm now loving every minute of it. Besides staring at code for hours, I also enjoy movies, fitness training and italian food.</p>
         <div data-aos="fade-up-right" className="about-buttons">
           <a className="download-cv-button" href={CV} target="_blank" rel="noreferrer">Download CV</a>
-          <Link to={`/contact`} href="https://www.linkedin.com/in/arty-wartanian/" target="_blank" ><div className="contact-button">Contact</div></Link>
+          <Link to="/contact"><div className="contact-button">Contact</div></Link>
         </div>
       </div>
     </div>
