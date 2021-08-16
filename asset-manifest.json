@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio-webpage/static/css/main.d6959cff.chunk.css",
-    "main.js": "/portfolio-webpage/static/js/main.24c59414.chunk.js",
-    "main.js.map": "/portfolio-webpage/static/js/main.24c59414.chunk.js.map",
+    "main.css": "/portfolio-webpage/static/css/main.bc2e7618.chunk.css",
+    "main.js": "/portfolio-webpage/static/js/main.33d14deb.chunk.js",
+    "main.js.map": "/portfolio-webpage/static/js/main.33d14deb.chunk.js.map",
     "runtime-main.js": "/portfolio-webpage/static/js/runtime-main.4dc58283.js",
     "runtime-main.js.map": "/portfolio-webpage/static/js/runtime-main.4dc58283.js.map",
     "static/css/2.ec02d681.chunk.css": "/portfolio-webpage/static/css/2.ec02d681.chunk.css",
@@ -10,29 +10,28 @@
     "static/js/2.78d25051.chunk.js.map": "/portfolio-webpage/static/js/2.78d25051.chunk.js.map",
     "index.html": "/portfolio-webpage/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/portfolio-webpage/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.d6959cff.chunk.css.map": "/portfolio-webpage/static/css/main.d6959cff.chunk.css.map",
+    "static/css/main.bc2e7618.chunk.css.map": "/portfolio-webpage/static/css/main.bc2e7618.chunk.css.map",
     "static/js/2.78d25051.chunk.js.LICENSE.txt": "/portfolio-webpage/static/js/2.78d25051.chunk.js.LICENSE.txt",
     "static/media/Arty_Wartanian_CV.cfb2cdd7.pdf": "/portfolio-webpage/static/media/Arty_Wartanian_CV.cfb2cdd7.pdf",
-    "static/media/alpaca-website.a8fae138.jpg": "/portfolio-webpage/static/media/alpaca-website.a8fae138.jpg",
+    "static/media/alpaca-website.2e9d0030.jpg": "/portfolio-webpage/static/media/alpaca-website.2e9d0030.jpg",
     "static/media/aw-icon-blue.5624d12b.png": "/portfolio-webpage/static/media/aw-icon-blue.5624d12b.png",
     "static/media/aw-icon-orange.06b3065e.png": "/portfolio-webpage/static/media/aw-icon-orange.06b3065e.png",
     "static/media/aw-icon-yellow.aa398ff4.png": "/portfolio-webpage/static/media/aw-icon-yellow.aa398ff4.png",
-    "static/media/blue-background.62af1ba8.png": "/portfolio-webpage/static/media/blue-background.62af1ba8.png",
-    "static/media/dark-background.9caf3873.png": "/portfolio-webpage/static/media/dark-background.9caf3873.png",
-    "static/media/dotted-spinner.d0ec4f34.png": "/portfolio-webpage/static/media/dotted-spinner.d0ec4f34.png",
-    "static/media/ecommerce.5c51ab33.jpg": "/portfolio-webpage/static/media/ecommerce.5c51ab33.jpg",
-    "static/media/orange-background.ebe9627c.png": "/portfolio-webpage/static/media/orange-background.ebe9627c.png",
-    "static/media/pokemon-game.00d41426.jpg": "/portfolio-webpage/static/media/pokemon-game.00d41426.jpg",
-    "static/media/portfolio-website.417177ba.jpg": "/portfolio-webpage/static/media/portfolio-website.417177ba.jpg",
-    "static/media/profile-picture.473ec903.png": "/portfolio-webpage/static/media/profile-picture.473ec903.png",
-    "static/media/white-background.5270d491.png": "/portfolio-webpage/static/media/white-background.5270d491.png",
-    "static/media/yellow-background.2e59d9b9.png": "/portfolio-webpage/static/media/yellow-background.2e59d9b9.png"
+    "static/media/blue-background.3442a458.png": "/portfolio-webpage/static/media/blue-background.3442a458.png",
+    "static/media/dark-background.5144a1d6.jpg": "/portfolio-webpage/static/media/dark-background.5144a1d6.jpg",
+    "static/media/ecommerce.fc0703d3.jpg": "/portfolio-webpage/static/media/ecommerce.fc0703d3.jpg",
+    "static/media/orange-background.fb68b117.png": "/portfolio-webpage/static/media/orange-background.fb68b117.png",
+    "static/media/pokemon-game.daf77f2f.jpg": "/portfolio-webpage/static/media/pokemon-game.daf77f2f.jpg",
+    "static/media/portfolio-website.94a8febc.jpg": "/portfolio-webpage/static/media/portfolio-website.94a8febc.jpg",
+    "static/media/profile-picture.2e32889b.jpg": "/portfolio-webpage/static/media/profile-picture.2e32889b.jpg",
+    "static/media/white-background.733c6a21.jpg": "/portfolio-webpage/static/media/white-background.733c6a21.jpg",
+    "static/media/yellow-background.a29ea3c7.png": "/portfolio-webpage/static/media/yellow-background.a29ea3c7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.4dc58283.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.78d25051.chunk.js",
-    "static/css/main.d6959cff.chunk.css",
-    "static/js/main.24c59414.chunk.js"
+    "static/css/main.bc2e7618.chunk.css",
+    "static/js/main.33d14deb.chunk.js"
   ]
 }
