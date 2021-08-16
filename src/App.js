@@ -8,11 +8,11 @@ import Contact from "./Pages/Contact/Contact";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 import HamburgerButton from "./Components/HamburgerButton/HamburgerButton";
-import orangeBackground from "./orange-background.png";
-import blueBackground from "./blue-background.png";
-import yellowBackground from "./yellow-background.png";
-import whiteBackground from "./white-background.png";
-import darkBackground from "./dark-background.png";
+import orangeBackground from "./Images/Background/orange-background.png";
+import blueBackground from "./Images/Background/blue-background.png";
+import yellowBackground from "./Images/Background/yellow-background.png";
+import whiteBackground from "./Images/Background/white-background.jpg";
+import darkBackground from "./Images/Background/dark-background.jpg";
 
 const App = () => {
   const [themeColor, setThemeColor] = useState("orange");

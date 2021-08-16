@@ -4,8 +4,7 @@ import Aos from "aos";
 import "./About.scss";
 import "aos/dist/aos.css";
 
-import picture from "./profile-picture.png";
-import spinner from "./dotted-spinner.png";
+import picture from "../../Images/profile-picture.jpg";
 import CV from "./Arty_Wartanian_CV.pdf";
 
 const About = () => {
@@ -19,7 +18,6 @@ const About = () => {
       <div className="about-container">
         <div data-aos="fade-down-left" className="about-image-container">
           <img src={picture} alt="" />
-          <div className="spinner" style={{ backgroundImage: `url(${spinner})` }}></div>
         </div>
         <h1 data-aos="fade-up-right" ><span>Hi, I'm </span> Arty Wartanian.</h1>
         <h3 data-aos="fade-up-right" className="about-title">Full-Stack Web Developer</h3>

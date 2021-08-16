@@ -4,17 +4,15 @@ import { Link } from 'react-router-dom';
 import "./Navbar.scss";
 import { FiSun } from 'react-icons/fi';
 import { BiMoon } from 'react-icons/bi';
-import orangeLogo from "./aw-icon-orange.png";
-import blueLogo from "./aw-icon-blue.png";
-import yellowLogo from "./aw-icon-yellow.png";
-
+import orangeLogo from "../../Images/Navbar-logo/aw-icon-orange.png";
+import blueLogo from "../../Images/Navbar-logo/aw-icon-blue.png";
+import yellowLogo from "../../Images/Navbar-logo/aw-icon-yellow.png";
 
 
 const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) => {
 
   const [colorButtons, setColorButtons] = useState(false);
   
-
   useEffect(() => {
     const root = document.documentElement;
     if (themeColor === "orange") { root?.style.setProperty("--primary-color", "#fd4133f3") }

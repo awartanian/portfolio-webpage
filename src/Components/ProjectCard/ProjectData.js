@@ -1,7 +1,7 @@
-import alpaca from "./images/alpaca-website.jpg"; 
-import pokemon from "./images/pokemon-game.jpg";
-import ecommerce from "./images/ecommerce.jpg";
-import portfolio from "./images/portfolio-website.jpg";
+import alpaca from "../../Images/ProjectCard/alpaca-website.jpg"; 
+import pokemon from "../../Images/ProjectCard/pokemon-game.jpg";
+import ecommerce from "../../Images/ProjectCard/ecommerce.jpg";
+import portfolio from "../../Images/ProjectCard/portfolio-website.jpg";
 
 const ProjectData = [
   {
