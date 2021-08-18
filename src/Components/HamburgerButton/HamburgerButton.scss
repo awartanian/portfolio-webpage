@@ -1,14 +1,11 @@
 .hamburger-button {
-   font-size: 1.5rem;
-   position: absolute;
-   padding: 1rem;
-   margin: 0.5rem;
-   right: 0;
-   cursor: pointer;
-   z-index: 5;
-   color: var(--font-color);
-   transition: 0.1s;
-  //  @media only screen and (max-width: 1000px) {
-  //   visibility: visible;
-  // }
+  font-size: 1.5rem;
+  position: absolute;
+  padding: 1rem;
+  margin: 0.5rem;
+  right: 0;
+  cursor: pointer;
+  z-index: 5;
+  color: var(--font-color);
+  transition: 0.1s;
 }
