@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-webpage/static/css/main.864232f1.chunk.css",
-    "main.js": "/portfolio-webpage/static/js/main.0505d0d6.chunk.js",
-    "main.js.map": "/portfolio-webpage/static/js/main.0505d0d6.chunk.js.map",
+    "main.js": "/portfolio-webpage/static/js/main.d98cd212.chunk.js",
+    "main.js.map": "/portfolio-webpage/static/js/main.d98cd212.chunk.js.map",
     "runtime-main.js": "/portfolio-webpage/static/js/runtime-main.4dc58283.js",
     "runtime-main.js.map": "/portfolio-webpage/static/js/runtime-main.4dc58283.js.map",
     "static/css/2.ec02d681.chunk.css": "/portfolio-webpage/static/css/2.ec02d681.chunk.css",
@@ -13,17 +13,17 @@
     "static/css/main.864232f1.chunk.css.map": "/portfolio-webpage/static/css/main.864232f1.chunk.css.map",
     "static/js/2.78d25051.chunk.js.LICENSE.txt": "/portfolio-webpage/static/js/2.78d25051.chunk.js.LICENSE.txt",
     "static/media/Arty_Wartanian_CV.cfb2cdd7.pdf": "/portfolio-webpage/static/media/Arty_Wartanian_CV.cfb2cdd7.pdf",
-    "static/media/alpaca-website.2e9d0030.jpg": "/portfolio-webpage/static/media/alpaca-website.2e9d0030.jpg",
+    "static/media/alpaca-website.b61b206a.jpg": "/portfolio-webpage/static/media/alpaca-website.b61b206a.jpg",
     "static/media/aw-icon-blue.5624d12b.png": "/portfolio-webpage/static/media/aw-icon-blue.5624d12b.png",
     "static/media/aw-icon-orange.06b3065e.png": "/portfolio-webpage/static/media/aw-icon-orange.06b3065e.png",
     "static/media/aw-icon-yellow.aa398ff4.png": "/portfolio-webpage/static/media/aw-icon-yellow.aa398ff4.png",
     "static/media/blue-background.3442a458.png": "/portfolio-webpage/static/media/blue-background.3442a458.png",
     "static/media/dark-background.5144a1d6.jpg": "/portfolio-webpage/static/media/dark-background.5144a1d6.jpg",
-    "static/media/ecommerce.fc0703d3.jpg": "/portfolio-webpage/static/media/ecommerce.fc0703d3.jpg",
+    "static/media/ecommerce.f9b11d4e.jpg": "/portfolio-webpage/static/media/ecommerce.f9b11d4e.jpg",
     "static/media/orange-background.fb68b117.png": "/portfolio-webpage/static/media/orange-background.fb68b117.png",
-    "static/media/pokemon-game.daf77f2f.jpg": "/portfolio-webpage/static/media/pokemon-game.daf77f2f.jpg",
-    "static/media/portfolio-website.94a8febc.jpg": "/portfolio-webpage/static/media/portfolio-website.94a8febc.jpg",
-    "static/media/profile-picture.2e32889b.jpg": "/portfolio-webpage/static/media/profile-picture.2e32889b.jpg",
+    "static/media/pokemon-game.27d98d96.jpg": "/portfolio-webpage/static/media/pokemon-game.27d98d96.jpg",
+    "static/media/portfolio-website.fdbe629c.jpg": "/portfolio-webpage/static/media/portfolio-website.fdbe629c.jpg",
+    "static/media/profile-picture.9182b87f.jpg": "/portfolio-webpage/static/media/profile-picture.9182b87f.jpg",
     "static/media/white-background.733c6a21.jpg": "/portfolio-webpage/static/media/white-background.733c6a21.jpg",
     "static/media/yellow-background.a29ea3c7.png": "/portfolio-webpage/static/media/yellow-background.a29ea3c7.png"
   },
@@ -32,6 +32,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.78d25051.chunk.js",
     "static/css/main.864232f1.chunk.css",
-    "static/js/main.0505d0d6.chunk.js"
+    "static/js/main.d98cd212.chunk.js"
   ]
 }
