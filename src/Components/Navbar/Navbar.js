@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { Link } from 'react-router-dom';
 import "./Navbar.scss";
+
 import { FiSun } from 'react-icons/fi';
 import { BiMoon } from 'react-icons/bi';
+
 import orangeLogo from "../../Images/Navbar-logo/aw-icon-orange.png";
 import blueLogo from "../../Images/Navbar-logo/aw-icon-blue.png";
 import yellowLogo from "../../Images/Navbar-logo/aw-icon-yellow.png";
@@ -12,7 +14,7 @@ import yellowLogo from "../../Images/Navbar-logo/aw-icon-yellow.png";
 const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) => {
 
   const [colorButtons, setColorButtons] = useState(false);
-  
+
   useEffect(() => {
     const root = document.documentElement;
     if (themeColor === "orange") { root?.style.setProperty("--primary-color", "#fd4133f3") }
@@ -30,7 +32,7 @@ const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) =>
 
   return (
     <div className="navbar" id={navbar ? "show-navbar" : "hide-navbar"}>
-      <Link to="/">
+      <Link to="/portfolio-webpage">
         <div className="logo-container">
           <img src={orangeLogo} className={themeColor === "orange" ? "orangeLogo" : null} alt="logo" />
           <img src={blueLogo} className={themeColor === "blue" ? "blueLogo" : null} alt="logo" />
@@ -39,7 +41,7 @@ const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) =>
       </Link>
       <ul className="navLinks-container">
         <li>
-          <NavLink exact={true} to="/" className="navLink" activeClassName="active-navLink">
+          <NavLink exact={true} to="/portfolio-webpage" className="navLink" activeClassName="active-navLink">
             <i className="far fa-user-circle navLink-icon"></i>
             <div className="navLink-page">About</div>
           </NavLink>
@@ -70,16 +72,16 @@ const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) =>
         </div>
         <div className="dark-light-mode" >
           <label className="switch-container" >
-            <input type="checkbox" onClick={()=>setDarkMode(!darkMode)}/>
+            <input type="checkbox" onClick={() => setDarkMode(!darkMode)} />
             <div >
-              <span className="dark"><BiMoon/></span>
-              <span className="light"><FiSun/></span>
+              <span className="dark"><BiMoon /></span>
+              <span className="light"><FiSun /></span>
             </div>
             <i className="round-switch"></i>
           </label>
         </div>
       </div>
-      
+
     </div>
   );
 };
