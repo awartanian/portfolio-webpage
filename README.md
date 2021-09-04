@@ -9,7 +9,7 @@ My personal portfolio website displaying my group projects. It is a single-page 
 Completed: July 2021 
 
 Features:
-- A side nav bar that can be hidden/shown. 
+- A beautiful side nav bar that can be hidden/shown. 
 - Theme color changing buttons (dark orange, blue and yellow). 
 - Light mode and dark mode toggle switch.
 - A list of my projects, where you have links to a DEMO or CODE on github.
