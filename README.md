@@ -10,6 +10,6 @@ Completed: July 2021
 
 Features:
 - A side nav bar that can be hidden/shown. 
-- Theme color changing buttons (Dark orange, Blue and yellow). 
-- Light mode and Dark mode toggle switch.
-- A list of my projects, where you can see a DEMO or a the relevant code on github. 
+- Theme color changing buttons (dark orange, blue and yellow). 
+- Light mode and dark mode toggle switch.
+- A list of my projects, where you have links to a DEMO or CODE on github.
