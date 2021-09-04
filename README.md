@@ -4,6 +4,8 @@
 ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 ![npm](https://img.shields.io/badge/-npm-333333?style=flat&logo=npm)
 
+<img src="https://img.shields.io/badge/Sass-333333?style=flat&logo=sass&logoColor=CC6699" height="50" />
+
 My personal portfolio website displaying my group projects. It is a single-page application made with React.js.
 
 Completed: July 2021 
