@@ -104,30 +104,3 @@
     }
   }
 }
-
-// .spinner {
-//   z-index: -1;
-//   width: 14rem;
-//   height: 14rem;
-//   position: absolute;
-//   bottom: -5px;
-//   left: -9px;
-//   background-size: cover;
-//   background-position: center;
-//   animation-name: spin;
-//   animation-duration: 30000ms;
-//   animation-iteration-count: infinite;
-//   animation-timing-function: linear;
-//   @media only screen and (max-width: 600px) {
-//     display: none;
-//   }
-// }
-
-// @keyframes spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }

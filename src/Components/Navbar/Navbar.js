@@ -1,17 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import Logo from "./Logo/Logo";
 import "./Navbar.scss";
 
-import { FiSun } from 'react-icons/fi';
-import { BiMoon } from 'react-icons/bi';
+/// IMPORTING REACT ICONS
+import { FiSun } from "react-icons/fi";
+import { BiMoon } from "react-icons/bi";
 
-import orangeLogo from "../../Images/Navbar-logo/aw-icon-orange.png";
-import blueLogo from "../../Images/Navbar-logo/aw-icon-blue.png";
-import yellowLogo from "../../Images/Navbar-logo/aw-icon-yellow.png";
-
-
-const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) => {
+const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode, }) => {
 
   const [colorButtons, setColorButtons] = useState(false);
 
@@ -21,7 +18,6 @@ const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) =>
     if (themeColor === "blue") { root?.style.setProperty("--primary-color", "#5149F0f3") }
     if (themeColor === "yellow") { root?.style.setProperty("--primary-color", "#ff9d00f3") }
   }, [themeColor]);
-
 
   useEffect(() => {
     const root = document.documentElement;
@@ -33,12 +29,9 @@ const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) =>
   return (
     <div className="navbar" id={navbar ? "show-navbar" : "hide-navbar"}>
       <Link to="/portfolio-webpage">
-        <div className="logo-container">
-          <img src={orangeLogo} className={themeColor === "orange" ? "orangeLogo" : null} alt="logo" />
-          <img src={blueLogo} className={themeColor === "blue" ? "blueLogo" : null} alt="logo" />
-          <img src={yellowLogo} className={themeColor === "yellow" ? "yellowLogo" : null} alt="logo" />
-        </div>
+        <Logo themeColor={themeColor} />
       </Link>
+
       <ul className="navLinks-container">
         <li>
           <NavLink exact={true} to="/portfolio-webpage" className="navLink" activeClassName="active-navLink">
@@ -46,14 +39,12 @@ const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) =>
             <div className="navLink-page">About</div>
           </NavLink>
         </li>
-
         <li>
           <NavLink to="/projects" className="navLink" activeClassName="active-navLink">
             <i className="fas fa-th navLink-icon"></i>
             <div className="navLink-page">Projects</div>
           </NavLink>
         </li>
-
         <li>
           <NavLink to="/contact" className="navLink" activeClassName="active-navLink">
             <i className="far fa-envelope navLink-icon"></i>
@@ -70,6 +61,7 @@ const Navbar = ({ navbar, themeColor, setThemeColor, darkMode, setDarkMode }) =>
             <div className="theme-color-button" onClick={() => setThemeColor("yellow")}><div className="yellow-circle circle"></div></div>
           </div>
         </div>
+
         <div className="dark-light-mode" >
           <label className="switch-container" >
             <input type="checkbox" onClick={() => setDarkMode(!darkMode)} />

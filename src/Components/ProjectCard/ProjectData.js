@@ -1,4 +1,4 @@
-import alpaca from "../../Images/ProjectCard/alpaca-website.jpg"; 
+import alpaca from "../../Images/ProjectCard/alpaca-website.jpg";
 import pokemon from "../../Images/ProjectCard/pokemon-game.jpg";
 import ecommerce from "../../Images/ProjectCard/ecommerce.jpg";
 import portfolio from "../../Images/ProjectCard/portfolio-website.jpg";
@@ -11,6 +11,7 @@ const ProjectData = [
     demo: "https://awartanian.github.io/alpaca-farm/",
     code: "https://github.com/awartanian/alpaca-farm",
     image: alpaca,
+    id: "a1b1c1",
   },
   {
     title: "Pokemon Game",
@@ -19,6 +20,7 @@ const ProjectData = [
     demo: "https://awartanian.github.io/pokemon-game/",
     code: "https://github.com/awartanian/pokemon-game",
     image: pokemon,
+    id: "a2b2c2",
   },
   {
     title: "E-commerce shop",
@@ -27,6 +29,7 @@ const ProjectData = [
     demo: "https://awartanian.github.io/ecommerce-shop/",
     code: "https://github.com/awartanian/ecommerce-shop",
     image: ecommerce,
+    id: "a3b3c3",
   },
   {
     title: "Portfolio App",
@@ -35,8 +38,8 @@ const ProjectData = [
     demo: "https://awartanian.github.io/portfolio-webpage/",
     code: "https://github.com/awartanian/portfolio-webpage",
     image: portfolio,
+    id: "a4b4c4",
   },
 ];
 
-
-export default ProjectData; 
+export default ProjectData;

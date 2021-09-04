@@ -1,29 +1,38 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Aos from "aos";
 import "./Contact.scss";
 import "aos/dist/aos.css";
 
 const Contact = () => {
-
   useEffect(() => {
-    Aos.init({duration: 1000, disable: "mobile", once:"true"});
-  }, [])
+    Aos.init({ duration: 1000, disable: "mobile", once: "true" });
+  }, []);
 
   return (
     <div className="contact-page">
-      <h2  data-aos="fade-down" className="contact-title" >Contact me</h2>
+      <h2 data-aos="fade-down" className="contact-title">
+        Contact me
+      </h2>
       <div className="contact-underline"></div>
-      <div  className="form-container">
-      
-      <form data-aos="fade" className="form-box" action="https://formsubmit.co/awartanian@hotmail.com" method="POST">
+      <div className="form-container">
+        <form
+          data-aos="fade"
+          className="form-box"
+          action="https://formsubmit.co/awartanian@hotmail.com"
+          method="POST"
+        >
           <label htmlFor="name">Name:</label>
-          <input type="text" name="name" required/>
+          <input type="text" name="name" required />
           <label htmlFor="email">Email:</label>
-          <input type="email" name="email" required/>
+          <input type="email" name="email" required />
           <label htmlFor="message">Message:</label>
           <textarea name="message" rows="6" cols="50" required></textarea>
-          <input type="hidden" name="_next" value="https://awartanian.github.io/portfolio-webpage/"></input>
-          <div style={{ "textAlign": "center" }}>
+          <input
+            type="hidden"
+            name="_next"
+            value="https://awartanian.github.io/portfolio-webpage/"
+          ></input>
+          <div style={{ textAlign: "center" }}>
             <input className="submit-button" type="submit" value="Submit" />
           </div>
         </form>

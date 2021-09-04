@@ -1,8 +1,8 @@
 #root {
-  $primary-color: #fd4133f3;
-  $background-color: #e4e4e4;
-  $font-color: white;
-  $text-input-color: white;
+  $primary-color: "";
+  $background-color: "";
+  $font-color: "";
+  $text-input-color: "";
 }
 
 * {
@@ -26,7 +26,6 @@ body {
   height: 95vh;
   margin: 0 auto;
   display: flex;
-
   @media only screen and (max-width: 1025px) {
     height: 98vh;
   }
