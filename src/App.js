@@ -22,29 +22,31 @@ const App = () => {
   const [navbar, setNavbar] = useState(true);
 
   return (
-    <div className="app-frame">
-      <Router>
-        <Navbar
-          navbar={navbar}
-          themeColor={themeColor}
-          setThemeColor={setThemeColor}
-          darkMode={darkMode}
-          setDarkMode={setDarkMode}
-        />
-        <main className="pages">
-          <HamburgerButton setNavbar={setNavbar} navbar={navbar} />
-          <BgImageMain darkMode={darkMode} />
-          <BgImageColored themeColor={themeColor} />
-          <Switch>
-            <Route path="/portfolio-webpage" exact component={About} />
-            <Route path="/about" exact component={About} />
-            <Route path="/projects" exact component={Projects} />
-            <Route path="/contact" exact component={Contact} />
-            <Redirect to="/portfolio-webpage" />
-          </Switch>
-          <Footer />
-        </main>
-      </Router>
+    <div className="app-container">
+      <div className="app-frame">
+        <Router>
+          <Navbar
+            navbar={navbar}
+            themeColor={themeColor}
+            setThemeColor={setThemeColor}
+            darkMode={darkMode}
+            setDarkMode={setDarkMode}
+          />
+          <main className="pages">
+            <HamburgerButton setNavbar={setNavbar} navbar={navbar} />
+            <BgImageMain darkMode={darkMode} />
+            <BgImageColored themeColor={themeColor} />
+            <Switch>
+              <Route path="/portfolio-webpage" exact component={About} />
+              <Route path="/about" exact component={About} />
+              <Route path="/projects" exact component={Projects} />
+              <Route path="/contact" exact component={Contact} />
+              <Redirect to="/portfolio-webpage" />
+            </Switch>
+            <Footer />
+          </main>
+        </Router>
+      </div>
     </div>
   );
 };

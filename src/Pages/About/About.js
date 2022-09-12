@@ -26,11 +26,10 @@ const About = () => {
         </h3>
         <p data-aos="fade-up-right">
           After working in the aviation/travel industry for quite a long time, I
-          decided to change my career.
-          <br />
-          In 2020 I joined a 1-year full-stack web development course and found
-          a new passion in building websites. Besides staring at code for hours,
-          I also enjoy movies, fitness training and italian food.
+          decided to change my career. In 2020 I joined a 1-year full-stack web
+          development course and found a new passion in building websites.
+          Besides staring at code for hours, I also enjoy movies, fitness
+          training and italian food.
         </p>
         <div data-aos="fade-up-right" className="about-buttons">
           <a
