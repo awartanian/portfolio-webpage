@@ -22,12 +22,14 @@ const About = () => {
           <span>Hi, I'm </span> Arty Wartanian.
         </h1>
         <h3 data-aos="fade-up-right" className="about-title">
-          Full-Stack Web Developer
+          Frontend Web Developer
         </h3>
         <p data-aos="fade-up-right">
-          My newly found passion in coding motivated me to change my career in
-          aviation. So I decided to join a 1-year full stack web dev course and
-          I'm now loving every minute of it. Besides staring at code for hours,
+          After working in the aviation/travel industry for quite a long time, I
+          decided to change my career.
+          <br />
+          In 2020 I joined a 1-year full-stack web development course and found
+          a new passion in building websites. Besides staring at code for hours,
           I also enjoy movies, fitness training and italian food.
         </p>
         <div data-aos="fade-up-right" className="about-buttons">
