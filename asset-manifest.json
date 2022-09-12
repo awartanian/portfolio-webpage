@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-webpage/static/css/main.3c919595.chunk.css",
-    "main.js": "/portfolio-webpage/static/js/main.393d7159.chunk.js",
-    "main.js.map": "/portfolio-webpage/static/js/main.393d7159.chunk.js.map",
-    "runtime-main.js": "/portfolio-webpage/static/js/runtime-main.4dc58283.js",
-    "runtime-main.js.map": "/portfolio-webpage/static/js/runtime-main.4dc58283.js.map",
-    "static/css/2.ec02d681.chunk.css": "/portfolio-webpage/static/css/2.ec02d681.chunk.css",
-    "static/js/2.78d25051.chunk.js": "/portfolio-webpage/static/js/2.78d25051.chunk.js",
-    "static/js/2.78d25051.chunk.js.map": "/portfolio-webpage/static/js/2.78d25051.chunk.js.map",
+    "main.css": "/portfolio-webpage/static/css/main.f50c9578.chunk.css",
+    "main.js": "/portfolio-webpage/static/js/main.872fae4e.chunk.js",
+    "main.js.map": "/portfolio-webpage/static/js/main.872fae4e.chunk.js.map",
+    "runtime-main.js": "/portfolio-webpage/static/js/runtime-main.1b91b228.js",
+    "runtime-main.js.map": "/portfolio-webpage/static/js/runtime-main.1b91b228.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/portfolio-webpage/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.cbc73ebe.chunk.js": "/portfolio-webpage/static/js/2.cbc73ebe.chunk.js",
+    "static/js/2.cbc73ebe.chunk.js.map": "/portfolio-webpage/static/js/2.cbc73ebe.chunk.js.map",
     "index.html": "/portfolio-webpage/index.html",
-    "static/css/2.ec02d681.chunk.css.map": "/portfolio-webpage/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.3c919595.chunk.css.map": "/portfolio-webpage/static/css/main.3c919595.chunk.css.map",
-    "static/js/2.78d25051.chunk.js.LICENSE.txt": "/portfolio-webpage/static/js/2.78d25051.chunk.js.LICENSE.txt",
-    "static/media/Arty_Wartanian_CV.cfb2cdd7.pdf": "/portfolio-webpage/static/media/Arty_Wartanian_CV.cfb2cdd7.pdf",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/portfolio-webpage/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.f50c9578.chunk.css.map": "/portfolio-webpage/static/css/main.f50c9578.chunk.css.map",
+    "static/js/2.cbc73ebe.chunk.js.LICENSE.txt": "/portfolio-webpage/static/js/2.cbc73ebe.chunk.js.LICENSE.txt",
+    "static/media/Arty_Wartanian_CV.ba1b6cea.pdf": "/portfolio-webpage/static/media/Arty_Wartanian_CV.ba1b6cea.pdf",
     "static/media/alpaca-website.b61b206a.jpg": "/portfolio-webpage/static/media/alpaca-website.b61b206a.jpg",
     "static/media/aw-icon-blue.5624d12b.png": "/portfolio-webpage/static/media/aw-icon-blue.5624d12b.png",
     "static/media/aw-icon-orange.06b3065e.png": "/portfolio-webpage/static/media/aw-icon-orange.06b3065e.png",
@@ -28,10 +28,10 @@
     "static/media/yellow-background.a29ea3c7.png": "/portfolio-webpage/static/media/yellow-background.a29ea3c7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4dc58283.js",
-    "static/css/2.ec02d681.chunk.css",
-    "static/js/2.78d25051.chunk.js",
-    "static/css/main.3c919595.chunk.css",
-    "static/js/main.393d7159.chunk.js"
+    "static/js/runtime-main.1b91b228.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.cbc73ebe.chunk.js",
+    "static/css/main.f50c9578.chunk.css",
+    "static/js/main.872fae4e.chunk.js"
   ]
 }
